@@ -1,0 +1,294 @@
+{
+  "experiment": "SSL_PER_HEAD_3HEAD_LOWTRAIN_200",
+  "model": "SSL encoder + 3 SNR heads, equal samples per head",
+  "samples_per_head": 200,
+  "total_labeled": 600,
+  "best_val_accuracy": 52.1,
+  "best_checkpoint": "/content/per_head_snr_multihead/outputs/SSL_PER_HEAD_3HEAD_LOWTRAIN_200/best_per_head_multihead.pth",
+  "last_checkpoint": "/content/per_head_snr_multihead/outputs/SSL_PER_HEAD_3HEAD_LOWTRAIN_200/last_per_head_multihead.pth",
+  "results_csv": "/content/per_head_snr_multihead/outputs/SSL_PER_HEAD_3HEAD_LOWTRAIN_200/per_head_multihead_results.csv",
+  "confusion_csv": "/content/per_head_snr_multihead/outputs/SSL_PER_HEAD_3HEAD_LOWTRAIN_200/per_head_multihead_confusion.csv",
+  "log_csv": "/content/per_head_snr_multihead/outputs/SSL_PER_HEAD_3HEAD_LOWTRAIN_200/per_head_multihead_train_log.csv",
+  "sample_summary": [
+    {
+      "group": "low",
+      "group_id": 0,
+      "snr": -10,
+      "label": 0,
+      "selected": 20,
+      "available": 1600
+    },
+    {
+      "group": "low",
+      "group_id": 0,
+      "snr": -5,
+      "label": 0,
+      "selected": 20,
+      "available": 1600
+    },
+    {
+      "group": "low",
+      "group_id": 0,
+      "snr": -10,
+      "label": 1,
+      "selected": 20,
+      "available": 1600
+    },
+    {
+      "group": "low",
+      "group_id": 0,
+      "snr": -5,
+      "label": 1,
+      "selected": 20,
+      "available": 1600
+    },
+    {
+      "group": "low",
+      "group_id": 0,
+      "snr": -10,
+      "label": 2,
+      "selected": 20,
+      "available": 1600
+    },
+    {
+      "group": "low",
+      "group_id": 0,
+      "snr": -5,
+      "label": 2,
+      "selected": 20,
+      "available": 1600
+    },
+    {
+      "group": "low",
+      "group_id": 0,
+      "snr": -10,
+      "label": 3,
+      "selected": 20,
+      "available": 1600
+    },
+    {
+      "group": "low",
+      "group_id": 0,
+      "snr": -5,
+      "label": 3,
+      "selected": 20,
+      "available": 1600
+    },
+    {
+      "group": "low",
+      "group_id": 0,
+      "snr": -10,
+      "label": 4,
+      "selected": 20,
+      "available": 1600
+    },
+    {
+      "group": "low",
+      "group_id": 0,
+      "snr": -5,
+      "label": 4,
+      "selected": 20,
+      "available": 1600
+    },
+    {
+      "group": "transition",
+      "group_id": 1,
+      "snr": 0,
+      "label": 0,
+      "selected": 20,
+      "available": 1600
+    },
+    {
+      "group": "transition",
+      "group_id": 1,
+      "snr": 5,
+      "label": 0,
+      "selected": 20,
+      "available": 1600
+    },
+    {
+      "group": "transition",
+      "group_id": 1,
+      "snr": 0,
+      "label": 1,
+      "selected": 20,
+      "available": 1600
+    },
+    {
+      "group": "transition",
+      "group_id": 1,
+      "snr": 5,
+      "label": 1,
+      "selected": 20,
+      "available": 1600
+    },
+    {
+      "group": "transition",
+      "group_id": 1,
+      "snr": 0,
+      "label": 2,
+      "selected": 20,
+      "available": 1600
+    },
+    {
+      "group": "transition",
+      "group_id": 1,
+      "snr": 5,
+      "label": 2,
+      "selected": 20,
+      "available": 1600
+    },
+    {
+      "group": "transition",
+      "group_id": 1,
+      "snr": 0,
+      "label": 3,
+      "selected": 20,
+      "available": 1600
+    },
+    {
+      "group": "transition",
+      "group_id": 1,
+      "snr": 5,
+      "label": 3,
+      "selected": 20,
+      "available": 1600
+    },
+    {
+      "group": "transition",
+      "group_id": 1,
+      "snr": 0,
+      "label": 4,
+      "selected": 20,
+      "available": 1600
+    },
+    {
+      "group": "transition",
+      "group_id": 1,
+      "snr": 5,
+      "label": 4,
+      "selected": 20,
+      "available": 1600
+    },
+    {
+      "group": "high",
+      "group_id": 2,
+      "snr": 10,
+      "label": 0,
+      "selected": 14,
+      "available": 1600
+    },
+    {
+      "group": "high",
+      "group_id": 2,
+      "snr": 15,
+      "label": 0,
+      "selected": 14,
+      "available": 1600
+    },
+    {
+      "group": "high",
+      "group_id": 2,
+      "snr": 20,
+      "label": 0,
+      "selected": 14,
+      "available": 1600
+    },
+    {
+      "group": "high",
+      "group_id": 2,
+      "snr": 10,
+      "label": 1,
+      "selected": 14,
+      "available": 1600
+    },
+    {
+      "group": "high",
+      "group_id": 2,
+      "snr": 15,
+      "label": 1,
+      "selected": 14,
+      "available": 1600
+    },
+    {
+      "group": "high",
+      "group_id": 2,
+      "snr": 20,
+      "label": 1,
+      "selected": 13,
+      "available": 1600
+    },
+    {
+      "group": "high",
+      "group_id": 2,
+      "snr": 10,
+      "label": 2,
+      "selected": 13,
+      "available": 1600
+    },
+    {
+      "group": "high",
+      "group_id": 2,
+      "snr": 15,
+      "label": 2,
+      "selected": 13,
+      "available": 1600
+    },
+    {
+      "group": "high",
+      "group_id": 2,
+      "snr": 20,
+      "label": 2,
+      "selected": 13,
+      "available": 1600
+    },
+    {
+      "group": "high",
+      "group_id": 2,
+      "snr": 10,
+      "label": 3,
+      "selected": 13,
+      "available": 1600
+    },
+    {
+      "group": "high",
+      "group_id": 2,
+      "snr": 15,
+      "label": 3,
+      "selected": 13,
+      "available": 1600
+    },
+    {
+      "group": "high",
+      "group_id": 2,
+      "snr": 20,
+      "label": 3,
+      "selected": 13,
+      "available": 1600
+    },
+    {
+      "group": "high",
+      "group_id": 2,
+      "snr": 10,
+      "label": 4,
+      "selected": 13,
+      "available": 1600
+    },
+    {
+      "group": "high",
+      "group_id": 2,
+      "snr": 15,
+      "label": 4,
+      "selected": 13,
+      "available": 1600
+    },
+    {
+      "group": "high",
+      "group_id": 2,
+      "snr": 20,
+      "label": 4,
+      "selected": 13,
+      "available": 1600
+    }
+  ]
+}
