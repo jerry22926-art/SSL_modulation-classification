@@ -9,6 +9,7 @@
 
 # Archives
 *.zip
+!dump_project.zip
 *.tar
 *.tar.gz
 *.7z
